@@ -1,0 +1,26 @@
+.navbar{
+    background-color: blue;
+}
+.signup-wrapper{
+    width: 70%;
+    max-width: 450px;
+    height: auto;
+    box-shadow: var(--shadow);
+    border-radius: 1rem;
+    padding: 1rem;
+
+}
+.title{
+    font-weight: 500;
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 0px;
+    margin-bottom: 1rem;
+}
+.p-login,.p-signup{
+    text-align: center;
+    font-weight: 300;
+    margin: 0px;
+    font-size: 0.8rem;
+    cursor: pointer;
+}

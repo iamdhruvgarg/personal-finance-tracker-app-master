@@ -1,0 +1,44 @@
+.navbar{
+    background-color: var(--theme);
+    padding: 1rem,1.5rem;
+    position: sticky;
+    top: 0%;
+    left: 0%;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    z-index: 10;
+    
+}
+.logo{
+    color: var(--white);
+    font-size: 1.3rem;
+    font-weight:700;
+    position: absolute;
+    margin: 0%;
+    left: 2%;
+
+}
+
+
+.link{
+    opacity: 0.8;
+    cursor: pointer;
+    position: absolute;
+    margin: 0%;
+    left: 91%;
+}
+.profilepic{
+    display: flex !important;
+    align-items: center !important;
+    gap: 0.75rem !important;
+    position: absolute;
+    left: 89%;
+}
+
+.link:hover{
+    opacity: 1;
+    transition: all 0.3s;
+}
