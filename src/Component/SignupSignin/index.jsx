@@ -21,7 +21,7 @@ const Signupsignin = () => {
   const [password, setPassword] = useState("");
   const [confirmpassword, setConfirmpassword] = useState("");
   const [loading, setLoading] = useState(false);
-  const [login, setLogin] = useState(false);
+  const [login, setLogin] = useState(true);
   const navigate = useNavigate();
 
   const Googleauth = () => {
@@ -189,7 +189,7 @@ const Signupsignin = () => {
               />
               <p className="p-login" onClick={() => setLogin(!login)}>
                 {" "}
-                or Dont't Have account? Click Here
+                or Don't Have The Account? Click Here
               </p>
             </form>
           </div>
@@ -244,7 +244,7 @@ const Signupsignin = () => {
             />
             <p className="p-signup" onClick={() => setLogin(!login)}>
               {" "}
-              or Dont't Have account? Click Here
+              or Already Have account? Click Here
             </p>
           </form>
         </div>
